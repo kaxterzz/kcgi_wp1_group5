@@ -1,0 +1,148 @@
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        justify-content: start;
+    }
+
+    .navbar ul {
+        display: none;
+        margin-top: 1.6rem;
+    }
+
+    .navbar li {
+        display: block;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .mr-sm-0 {
+        margin-right: 0;
+    }
+
+    .m-sm-10px {
+        margin: 0 10px 10px 0;
+    }
+
+    .margin-sm-auto {
+        margin: auto;
+    }
+
+    .info-card {
+        margin-bottom: 2rem;
+    }
+
+    .flex-sm-row {
+        flex-direction: row;
+    }
+
+    .flex-sm-column {
+        flex-direction: column;
+    }
+
+    .justify-content-sm-center {
+        justify-content: center;
+    }
+
+    .main-image-section {
+        margin-top: 0;
+    }
+
+    .ml-sm-24rem {
+        margin-left: 2.4rem;
+    }
+
+    .mr-sm-24rem {
+        margin-left: 0;
+        margin-right: 2.4rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer div {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .text-sm-center {
+        text-align: center;
+    }
+
+    .movie-main-info-section {
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+
+    .mb-sm-1rem {
+        margin-bottom: 1rem;
+    }
+
+    .w-sm-90 {
+        width: 90%;
+    }
+
+    .hr {
+        display: block;
+        width: 90%;
+    }
+    
+    .mt-sm-16rem {
+        margin-top: 1.6rem
+    }
+
+    .mb-sm-16rem {
+        margin-bottom: 1.6rem
+    }
+
+    .tv-show-tile {
+        width: 100%;
+    }
+
+    .music-artist-avatar {
+        width: 100px;
+        height: 100%;
+    }
+
+    .margin-inline-10 {
+        margin-inline: 10px;
+    }
+
+    .audio-player-div audio {
+        width: 100% !important;
+    }
+
+    .mt-8px {
+        margin-top: 8px;
+    }
+
+    .movies-image-section {
+        margin-top: 0 !important;
+    }
+
+    .padding-inline-10px {
+        padding-inline: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .mt-sm-16rem {
+        margin-top: 1.6rem
+    }
+
+    .mb-sm-16rem {
+        margin-bottom: 1.6rem
+    }
+
+    .mr-md-3rem {
+        margin-right: 3rem;
+    }
+}

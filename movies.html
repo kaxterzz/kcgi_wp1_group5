@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Plus</title>
+    <meta name="description" content="Your website description here">
+    <meta name="keywords" content="movies, TV shows, music">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="m-auto">
+    <header>
+        <div class="flex flex-row justify-content-space-between header-top-bar">
+            <div>
+                <h4 class="site-title">Entertainment <span><i>Plus</i>&nbsp;<i class="fa-solid fa-plus"></i></span></h4>
+            </div>
+            <div class="mt-8px">
+                <ul class="display-inline list-style-none social-media">
+                    <li class="mr-025"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="mr-025"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="mr-025"><i class="fa-solid fa-envelope"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+            <ul class="dropdown" id="dropdownMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html" class="active">Movies</a></li>
+                <li><a href="tv-shows.html">TV Shows</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <main class="container m-auto">
+        <section class="movies-image-section">
+            <div class="movie-cover-div">
+                <img src="assets/images/movies/mtv.jpeg" alt="movies and tv shows image" class="img-fluid">
+            </div>
+        </section>
+
+        <section id="movies" class="mb-2rem text-white">
+            <div class="flex flex-row flex-sm-column mb-1rem ml-sm-24rem mb-sm-1rem">
+                <div>
+                    <img src="assets/images/movies/bad_hombres_2023.jpg" class="w-90 border-radius-5px">
+                </div>
+                <div class="movie-info">
+                    <h2>Bad Hombres</h2>
+                    <div class="movie-genres">
+                        <span>Crime</span> <span>Thriller</span>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 6.6 / 10
+                    </div>
+                    <p>
+                        <span><i>Directed By : </i>John Stalberg Jr.</span>
+                    </p>
+                    <p>
+                        <span class="movie-cast"><i>Starring :</i> Thomas Jane | Nick Cassavetes | Luke
+                            Hemsworth...</span>
+                    </p>
+                    <p>
+                        Two undocumented immigrants take the simple job of digging a hole in the desert, but when their
+                        employers turn out to be psychopaths, staying alive will become the most complex job of their
+                        lives.
+                    </p>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a href="https://www.imdb.com/title/tt18231326/" target="_blank">
+                            <i class="fa-brands fa-imdb fa-lg" style="color: #ffcc14;"></i> Visit IMDb
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=BI8-GZ1YoFk" target="_blank">
+                            <i class="fa-brands fa-youtube fa-lg" style="color: #ec5555;"></i> Watch YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hr">
+
+            <div class="flex flex-row flex-sm-column mb-1rem ml-sm-24rem mb-sm-1rem">
+                <div class="movie-info mr-1 mb-sm-1rem">
+                    <h2>After the Bite</h2>
+                    <div class="movie-genres">
+                        <span>Documentary</span>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 7 / 10
+                    </div>
+                    <p>
+                        <span><i>Directed By : </i>Ivy Meeropol</span>
+                    </p>
+                    <p>
+                        <span class="movie-cast"><i>Starring :</i>
+                            Lisa Sette | Greg Skomal | Megan Winton...</span>
+                    </p>
+                    <p>
+                        Local residents and thousands of vacationers flock to Cape Cod every summer begin to grapple
+                        with this alarming new reality of sharks while following the science to investigate.
+                    </p>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a href="https://www.imdb.com/title/tt14746834/" target="_blank">
+                            <i class="fa-brands fa-imdb fa-lg" style="color: #ffcc14;"></i> Visit IMDb
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=Yt3a_xG7wkA" target="_blank">
+                            <i class="fa-brands fa-youtube fa-lg" style="color: #ec5555;"></i> Watch YouTube
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/movies/after_the_bite_2023.jpg" class="w-90 border-radius-5px">
+                </div>
+            </div>
+
+            <hr class="hr mb-sm-16rem">
+
+            <div class="flex flex-row flex-sm-column mb-1rem ml-sm-24rem">
+                <div>
+                    <img src="assets/images/movies/last_voyage_of_the_demeter_2023.jpg" class="w-100 w-sm-90 border-radius-5px">
+                </div>
+                <div class="movie-info ml-1">
+                    <h2 class="mt-0">Last Voyage of the Demeter</h2>
+                    <div class="movie-genres">
+                        <span>Horror</span>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 7.2 / 10
+                    </div>
+                    <p>
+                        <span><i>Directed By : </i>André Øvredal</span>
+                    </p>
+                    <p>
+                        <span class="movie-cast"><i>Starring :</i>
+                            Corey Hawkins | Aisling Franciosi | Liam Cunningham...</span>
+                    </p>
+                    <p>
+                        Based on a single chapter, the Captain's Log, from Bram Stoker's classic 1897 novel Dracula, the
+                        story is set aboard the Russian schooner Demeter, which was chartered to carry private cargo -
+                        twenty-four unmarked wooden crates - from Carpathia to London.
+                    </p>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a href="https://www.imdb.com/title/tt1001520/" target="_blank">
+                            <i class="fa-brands fa-imdb fa-lg" style="color: #ffcc14;"></i> Visit IMDb
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=6FgUUO9Ztd0" target="_blank">
+                            <i class="fa-brands fa-youtube fa-lg" style="color: #ec5555;"></i> Watch YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hr mt-sm-16rem">
+
+            <div class="flex flex-row flex-sm-column mb-1rem align-items-center ml-sm-24rem">
+                <div class="movie-info mr-1 mb-sm-1rem">
+                    <h2>Fast X</h2>
+                    <div class="movie-genres">
+                        <span>Action</span> <span>Adventure</span> <span>Crime</span>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 5.9 / 10
+                    </div>
+                    <p>
+                        <span><i>Directed By : </i>
+                            Louis Leterrier</span>
+                    </p>
+                    <p>
+                        <span class="movie-cast"><i>Starring :</i>
+                            Vin Diesel | Michelle Rodriguez | Jason Statham...</span>
+                    </p>
+                    <p>
+                        The end of the road begins. Fast X, the tenth film in the Fast and Furious Saga, launches the
+                        final chapters of one of cinema's most storied and popular global franchises.
+                    </p>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a href="https://www.imdb.com/title/tt5433140/" target="_blank">
+                            <i class="fa-brands fa-imdb fa-lg" style="color: #ffcc14;"></i> Visit IMDb
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=32RAq6JzY-w" target="_blank">
+                            <i class="fa-brands fa-youtube fa-lg" style="color: #ec5555;"></i> Watch YouTube
+                        </a>
+                    </div>
+                </div>
+                <div class="mb-sm-1rem">
+                    <img src="assets/images/movies/fast_x_ver2_2023.jpg" class="w-90 border-radius-5px">
+                </div>
+            </div>
+
+            <hr class="hr mb-sm-16rem">
+
+            <div class="flex flex-row flex-sm-column mb-1rem ml-sm-24rem">
+                <div>
+                    <img src="assets/images/movies/last_kingdom_seven_kings_must_die_2023.jpg"
+                        class="w-90 border-radius-5px">
+                </div>
+                <div class="movie-info">
+                    <h2>Last Kingdom : Seven Kings Must Die</h2>
+                    <div class="movie-genres">
+                        <span>Action</span> <span>Drama</span> <span>History</span>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 6.9 / 10
+                    </div>
+                    <p>
+                        <span><i>Directed By : </i>Edward Bazalgette</span>
+                    </p>
+                    <p>
+                        <span class="movie-cast"><i>Starring :</i> Mark Rowley | Pekka Strang | Zoltan Andrasi...</span>
+                    </p>
+                    <p>
+                        Irish Viking king Anlaf arrives in Northumbria with his army after learning that the Anglo-Saxon
+                        King Edward is gravely ill. Edward dies, leaving behind three sons, but none were named as his
+                        heir.
+                    </p>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a href="https://www.imdb.com/title/tt15767808/" target="_blank">
+                            <i class="fa-brands fa-imdb fa-lg" style="color: #ffcc14;"></i> Visit IMDb
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=eqCYw_o5lng" target="_blank">
+                            <i class="fa-brands fa-youtube fa-lg" style="color: #ec5555;"></i> Watch YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer padding-inline-10px">
+            <div class="w-25">
+                <h4 class="site-title-footer">Entertainment <span><i>Plus</i>&nbsp;<i
+                            class="fa-solid fa-plus"></i></span></h4>
+                <p class="text-white">
+                    Discover movies, TV shows, and music — endless genres, timeless classics. Thrilling adventures,
+                    heartwarming romances, chart-topping tunes. Explore now!
+                </p>
+            </div>
+            <div class="pages">
+                <h4 class="text-white">Pages</h4>
+                <ul class="footer-pages-nav">
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+                    <li><a href="movies.html"><i class="fa-solid fa-film"></i>&nbsp;Movies</a></li>
+                    <li><a href="tv-shows.html"><i class="fa-solid fa-tv"></i>&nbsp;TV Shows</a></li>
+                    <li><a href="music.html"><i class="fa-solid fa-music"></i>&nbsp;Music</a></li>
+                </ul>
+            </div>
+            <div class="who-are-we w-25">
+                <h4 class="text-white">Who Are We ?</h4>
+                <p class="text-white">
+                    We are a group of young people who believe in Free World and New World Order!
+                </p>
+                <p class="text-white">
+                    Curious ? <a href="#">Join Our NEWS letter</a>
+                </p>
+            </div>
+            <div class="footer-social-media">
+                <h4 class="text-white">Follow us on Social Media</h4>
+                <ul class="footer-pages-nav">
+                    <li class="mr-025"><a>Instagram&nbsp;<i class="fa-brands fa-instagram"></i></a> </li>
+                    <li class="mr-025"><a>Facebook&nbsp;<i class="fa-brands fa-facebook"></i></a> </li>
+                    <li class="mr-025"><a>Email&nbsp;<i class="fa-solid fa-envelope"></i></a> </li>
+                    <li><a>YouTube&nbsp;<i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <p class="copyright">Entertainment Plus - 2023. Made with <i class="fa-solid fa-heart"
+                style="color: #ec5555;"></i> and <img src="assets/images/icons/mug-hot-alt.svg"></p>
+    </footer>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+
+</html>

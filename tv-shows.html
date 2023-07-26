@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Plus</title>
+    <meta name="description" content="Your website description here">
+    <meta name="keywords" content="movies, TV shows, music">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="m-auto">
+    <header>
+        <div class="flex flex-row justify-content-space-between header-top-bar">
+            <div>
+                <h4 class="site-title">Entertainment <span><i>Plus</i>&nbsp;<i class="fa-solid fa-plus"></i></span></h4>
+            </div>
+            <div class="mt-8px">
+                <ul class="display-inline list-style-none social-media">
+                    <li class="mr-025"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="mr-025"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="mr-025"><i class="fa-solid fa-envelope"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+            <ul class="dropdown" id="dropdownMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="tv-shows.html" class="active">TV Shows</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <main class="container m-auto">
+        <section class="main-image-section">
+            <video autoplay width="100%" controls muted class="tv-show-player">
+                <source src="assets/video/tv-shows.mp4">
+            </video>
+        </section>
+
+        <section id="browse">
+            <div class="flex flex-row flex-sm-column">
+                <div>
+                    <h2 class="text-white">Browse by Genre</h2>
+                    <div class="tv-show-genres text-white">
+                        <div>Action</div>
+                        <div>Drama</div>
+                        <div>History</div>
+                        <div>Sci-Fi</div>
+                        <div>Animation</div>
+                        <div>Adventure</div>
+                        <div>Horror</div>
+                        <div>Documentary</div>
+                        <div>Thriller</div>
+                        <div>Crime</div>
+                        <div>Romance</div>
+                        <div>Mystery</div>
+                        <div>Fantasy</div>
+                        <div>Superhero</div>
+                        <div>Musical</div>
+                        <div>Psychological</div>
+                        <div>Supernatural</div>
+                        <div>Political</div>
+                        <div>Time Travel</div>
+                        <div>Gothic</div>
+                        <div>War</div>
+                        <div>Martial Arts</div>
+                        <div>Teen/Coming-of-age</div>
+                        <div>Family</div>
+                        <div>Sports</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="tv-shows-container">
+            <div class="tv-show-tile">
+                <img src="assets/images/tvshows/demon_slayer.png" alt="TV Show Poster">
+                <div class="overlay">
+                    <p>Demon Slayer - 鬼滅の刃</p>
+                    <div class="tv-show-genres text-white mb-0">
+                        <div>Animation</div> <div>Fantasy</div>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 7.3 / 10
+                    </div>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a class="btn btn-info text-white btn-round mr-5px" href="https://www.imdb.com/title/tt26537229/" target="_blank">
+                            <i class="fa-brands fa-imdb"></i> IMDb
+                        </a>
+                        <a class="btn btn-info text-white btn-round" href="https://www.youtube.com/watch?v=VQGCKyvzIM4&t=85s" target="_blank">
+                            <i class="fa-brands fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tv-show-tile">
+                <img src="assets/images/tvshows/breaking_bad.jpg" alt="TV Show Poster">
+                <div class="overlay">
+                    <p>Breaking Bad</p>
+                    <div class="tv-show-genres text-white mb-0">
+                        <div>Crime</div> <div>Action</div>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 10 / 10
+                    </div>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a class="btn btn-info text-white btn-round mr-5px" href="https://www.imdb.com/title/tt2301451/" target="_blank">
+                            <i class="fa-brands fa-imdb"></i> IMDb
+                        </a>
+                        <a class="btn btn-info text-white btn-round" href="https://www.youtube.com/watch?v=HhesaQXLuRY" target="_blank">
+                            <i class="fa-brands fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tv-show-tile">
+                <img src="assets/images/tvshows/see.jpg" alt="TV Show Poster">
+                <div class="overlay">
+                    <p>See</p>
+                    <div class="tv-show-genres text-white mb-0">
+                        <div>History</div> <div>Adventure</div>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 7.6 / 10
+                    </div>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a class="btn btn-info text-white btn-round mr-5px" href="https://www.imdb.com/title/tt7949218/" target="_blank">
+                            <i class="fa-brands fa-imdb"></i> IMDb
+                        </a>
+                        <a class="btn btn-info text-white btn-round" href="https://www.youtube.com/watch?v=7Rg0y7NT1gU" target="_blank">
+                            <i class="fa-brands fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tv-show-tile">
+                <img src="assets/images/tvshows/witcher.jpg" alt="TV Show Poster">
+                <div class="overlay">
+                    <p>The Witcher</p>
+                    <div class="tv-show-genres text-white mb-0">
+                        <div>Adventure</div> <div>Fiction</div>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 8.1 / 10
+                    </div>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a class="btn btn-info text-white btn-round mr-5px" href="https://www.imdb.com/title/tt5180504/" target="_blank">
+                            <i class="fa-brands fa-imdb"></i> IMDb
+                        </a>
+                        <a class="btn btn-info text-white btn-round" href="https://www.youtube.com/watch?v=ndl1W4ltcmg" target="_blank">
+                            <i class="fa-brands fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tv-show-tile">
+                <img src="assets/images/tvshows/outer_banks.jpg" alt="TV Show Poster">
+                <div class="overlay">
+                    <p>Outer Banks</p>
+                    <div class="tv-show-genres text-white mb-0">
+                        <div>Adventure</div> <div>Fiction</div>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 7.9 / 10
+                    </div>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a class="btn btn-info text-white btn-round mr-5px" href="https://www.imdb.com/title/tt10293938/" target="_blank">
+                            <i class="fa-brands fa-imdb"></i> IMDb
+                        </a>
+                        <a class="btn btn-info text-white btn-round" href="https://www.youtube.com/watch?v=uk_hFfUFXh4" target="_blank">
+                            <i class="fa-brands fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tv-show-tile">
+                <img src="assets/images/tvshows/light_as_a_feather.jpg" alt="TV Show Poster">
+                <div class="overlay">
+                    <p>Light as a Feather</p>
+                    <div class="tv-show-genres text-white mb-0">
+                        <div>Crime</div> <div>Horror</div>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 6.5 / 10
+                    </div>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a class="btn btn-info text-white btn-round mr-5px" href="https://www.imdb.com/title/tt8619822/" target="_blank">
+                            <i class="fa-brands fa-imdb"></i> IMDb
+                        </a>
+                        <a class="btn btn-info text-white btn-round" href="https://www.youtube.com/watch?v=X00f5S8S-wA" target="_blank">
+                            <i class="fa-brands fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tv-show-tile">
+                <img src="assets/images/tvshows/black_mirror.webp" alt="TV Show Poster">
+                <div class="overlay">
+                    <p>Black Mirror</p>
+                    <div class="tv-show-genres text-white mb-0">
+                        <div>Drama</div> <div>Mystery</div>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 8.7 / 10
+                    </div>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a class="btn btn-info text-white btn-round mr-5px" href="https://www.imdb.com/title/tt2085059" target="_blank">
+                            <i class="fa-brands fa-imdb"></i> IMDb
+                        </a>
+                        <a class="btn btn-info text-white btn-round" href="https://www.youtube.com/watch?v=yef_HfQoBd8" target="_blank">
+                            <i class="fa-brands fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tv-show-tile">
+                <img src="assets/images/tvshows/stranger_things.jpg" alt="TV Show Poster">
+                <div class="overlay">
+                    <p>Stranger Things</p>
+                    <div class="tv-show-genres text-white mb-0">
+                        <div>Fantasy</div> <div>Fiction</div>
+                    </div>
+                    <div class="imdb-rating">
+                        <i class="fa-brands fa-imdb fa-3xl" style="color: #ffcc14;"></i> 8.7 / 10
+                    </div>
+                    <div class="flex flex-row movie-buttons text-sm-center">
+                        <a class="btn btn-info text-white btn-round mr-5px" href="https://www.imdb.com/title/tt4574334" target="_blank">
+                            <i class="fa-brands fa-imdb"></i> IMDb
+                        </a>
+                        <a class="btn btn-info text-white btn-round" href="https://www.youtube.com/watch?v=b9EkMc79ZSU" target="_blank">
+                            <i class="fa-brands fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="footer padding-inline-10px">
+            <div class="w-25">
+                <h4 class="site-title-footer">Entertainment <span><i>Plus</i>&nbsp;<i
+                            class="fa-solid fa-plus"></i></span></h4>
+                <p class="text-white">
+                    Discover movies, TV shows, and music — endless genres, timeless classics. Thrilling adventures,
+                    heartwarming romances, chart-topping tunes. Explore now!
+                </p>
+            </div>
+            <div class="pages">
+                <h4 class="text-white">Pages</h4>
+                <ul class="footer-pages-nav">
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+                    <li><a href="movies.html"><i class="fa-solid fa-film"></i>&nbsp;Movies</a></li>
+                    <li><a href="tv-shows.html"><i class="fa-solid fa-tv"></i>&nbsp;TV Shows</a></li>
+                    <li><a href="music.html"><i class="fa-solid fa-music"></i>&nbsp;Music</a></li>
+                </ul>
+            </div>
+            <div class="who-are-we w-25">
+                <h4 class="text-white">Who Are We ?</h4>
+                <p class="text-white">
+                    We are a group of young people who believe in Free World and New World Order!
+                </p>
+                <p class="text-white">
+                    Curious ? <a href="#">Join Our NEWS letter</a>
+                </p>
+            </div>
+            <div class="footer-social-media">
+                <h4 class="text-white">Follow us on Social Media</h4>
+                <ul class="footer-pages-nav">
+                    <li class="mr-025"><a>Instagram&nbsp;<i class="fa-brands fa-instagram"></i></a> </li>
+                    <li class="mr-025"><a>Facebook&nbsp;<i class="fa-brands fa-facebook"></i></a> </li>
+                    <li class="mr-025"><a>Email&nbsp;<i class="fa-solid fa-envelope"></i></a> </li>
+                    <li><a>YouTube&nbsp;<i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <p class="copyright">Entertainment Plus - 2023. Made with <i class="fa-solid fa-heart"
+                style="color: #ec5555;"></i> and <img src="assets/images/icons/mug-hot-alt.svg"></p>
+    </footer>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+
+</html>

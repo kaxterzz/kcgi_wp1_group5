@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Plus</title>
+    <meta name="description" content="Your website description here">
+    <meta name="keywords" content="movies, TV shows, music">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/js/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/js/OwlCarousel/dist/assets/owl.theme.default.min.css">
+</head>
+
+<body class="m-auto">
+    <header>
+        <div class="flex flex-row justify-content-space-between header-top-bar">
+            <div>
+                <h4 class="site-title">Entertainment <span><i>Plus</i>&nbsp;<i class="fa-solid fa-plus"></i></span></h4>
+            </div>
+            <div class="mt-8px">
+                <ul class="display-inline list-style-none social-media">
+                    <li class="mr-025"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="mr-025"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="mr-025"><i class="fa-solid fa-envelope"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+            <ul class="dropdown" id="dropdownMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="tv-shows.html">TV Shows</a></li>
+                <li><a href="music.html" class="active">Music</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <main class="container m-auto">
+        <section class="main-image-section">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="assets/images/music/eminem_2.jpg">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/bon_jovi.webp">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/george_michel.jpg">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/mgk.jpg">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/modern_talking.jpg">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/mark_anthony.jpg">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/bns.webp">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/system_of_a_dawn.jpg">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/billie_eilish_2.jpg">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/hozier.jpg">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/mark_anthony.jpg">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/enrique.webp">
+                </div>
+                <div class="item">
+                    <img src="assets/images/music/mohombi.webp">
+                </div>
+            </div>
+        </section>
+
+        <div class="flex flex-row flex-sm-column">
+            <section id="other-artists" class="margin-inline-10 mr-md-3rem">
+                <h2 class="text-white">Various Other Artists</h2>
+                <hr>
+                <div class="flex flex-column">
+                    <h3 class="text-white">Alan Walker, Sabrina Carpenter & Farruko - On My Way</h3>
+                    <iframe class="border-radius-5px" width="auto" height="315"
+                        src="https://www.youtube.com/embed/dhYOPzcsbGM" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="flex flex-column">
+                    <h3 class="text-white">Charlie Puth & Selena Gomez - We Don't Talk Anymore</h3>
+                    <iframe class="border-radius-5px" width="auto" height="315" src="https://www.youtube.com/embed/i_yLpCLMaKk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="flex flex-column">
+                    <h3 class="text-white">Europe - The Final Countdown</h3>
+                    <iframe class="border-radius-5px" width="auto" height="315"
+                        src="https://www.youtube.com/embed/9jK-NcRmVcw" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+            <section id="top-hits">
+                <h2 class="text-white margin-inline-10">Top Hits</h2>
+                <hr class="margin-inline-10 mb-2rem">
+                <div class="flex flex-row margin-inline-10">
+                    <img src="assets/images/music/mark_anthony.jpg" class="music-artist-avatar border-round">
+                    <div class="flex-column text-white ml-1 audio-player-div">
+                        <h3>Mark Anthony - Dream at Night</h3>
+                        <audio controls>
+                            <source src="assets/audio/ma_dream_at_night.mp3">
+                        </audio>
+                    </div>
+                </div>
+                <div class="flex flex-row margin-inline-10">
+                    <img src="assets/images/music/george_michel.jpg" class="music-artist-avatar border-round">
+                    <div class="flex-column text-white ml-1 audio-player-div">
+                        <h3>Goerge Michel - Careless Whisper</h3>
+                        <audio controls>
+                            <source src="assets/audio/george_michel_careless_whisper.mp3">
+                        </audio>
+                    </div>
+                </div>
+                <div class="flex flex-row margin-inline-10">
+                    <img src="assets/images/music/modern_talking.jpg" class="music-artist-avatar border-round">
+                    <div class="flex-column text-white ml-1 audio-player-div">
+                        <h3>Modern Talking - Cherry Cherry Lady</h3>
+                        <audio controls>
+                            <source src="assets/audio/modern_talking_cherry_cherry_lady.mp3">
+                        </audio>
+                    </div>
+                </div>
+                <div class="flex flex-row margin-inline-10">
+                    <img src="assets/images/music/eminem_2.jpg" class="music-artist-avatar border-round">
+                    <div class="flex-column text-white ml-1 audio-player-div">
+                        <h3>Eminem - I'm not Afraid</h3>
+                        <audio controls>
+                            <source src="assets/audio/eminem_not_afraid.mp3">
+                        </audio>
+                    </div>
+                </div>
+                <div class="flex flex-row margin-inline-10">
+                    <img src="assets/images/music/hozier.jpg" class="music-artist-avatar border-round">
+                    <div class="flex-column text-white ml-1 audio-player-div">
+                        <h3>Hozier - Take me to Church</h3>
+                        <audio controls>
+                            <source src="assets/audio/hozier_take_me_to_church.mp3">
+                        </audio>
+                    </div>
+                </div>
+                <div class="flex flex-row margin-inline-10">
+                    <img src="assets/images/music/billie_eilish_2.jpg" class="music-artist-avatar border-round">
+                    <div class="flex-column text-white ml-1 audio-player-div">
+                        <h3>BIllie Eilish - Bad Guy</h3>
+                        <audio controls>
+                            <source src="assets/audio/be_bad_guy.mp3">
+                        </audio>
+                    </div>
+                </div>
+                <div class="flex flex-row margin-inline-10">
+                    <img src="assets/images/music/mark_anthony.jpg" class="music-artist-avatar border-round">
+                    <div class="flex-column text-white ml-1 audio-player-div">
+                        <h3>Mark Anthony - You Sang for Me</h3>
+                        <audio controls>
+                            <source src="assets/audio/ma_you_sang_to_me.mp3">
+                        </audio>
+                    </div>
+                </div>
+                <div class="flex flex-row margin-inline-10">
+                    <img src="assets/images/music/mgk.jpg" class="music-artist-avatar border-round">
+                    <div class="flex-column text-white ml-1 audio-player-div">
+                        <h3>MGK - Alpha Omega</h3>
+                        <audio controls>
+                            <source src="assets/audio/mgk_alpha_omaga.mp3">
+                        </audio>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <section class="footer padding-inline-10px">
+            <div class="w-25">
+                <h4 class="site-title-footer">Entertainment <span><i>Plus</i>&nbsp;<i
+                            class="fa-solid fa-plus"></i></span></h4>
+                <p class="text-white">
+                    Discover movies, TV shows, and music — endless genres, timeless classics. Thrilling adventures,
+                    heartwarming romances, chart-topping tunes. Explore now!
+                </p>
+            </div>
+            <div class="pages">
+                <h4 class="text-white">Pages</h4>
+                <ul class="footer-pages-nav">
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+                    <li><a href="movies.html"><i class="fa-solid fa-film"></i>&nbsp;Movies</a></li>
+                    <li><a href="tv-shows.html"><i class="fa-solid fa-tv"></i>&nbsp;TV Shows</a></li>
+                    <li><a href="music.html"><i class="fa-solid fa-music"></i>&nbsp;Music</a></li>
+                </ul>
+            </div>
+            <div class="who-are-we w-25">
+                <h4 class="text-white">Who Are We ?</h4>
+                <p class="text-white">
+                    We are a group of young people who believe in Free World and New World Order!
+                </p>
+                <p class="text-white">
+                    Curious ? <a href="#">Join Our NEWS letter</a>
+                </p>
+            </div>
+            <div class="footer-social-media">
+                <h4 class="text-white">Follow us on Social Media</h4>
+                <ul class="footer-pages-nav">
+                    <li class="mr-025"><a>Instagram&nbsp;<i class="fa-brands fa-instagram"></i></a> </li>
+                    <li class="mr-025"><a>Facebook&nbsp;<i class="fa-brands fa-facebook"></i></a> </li>
+                    <li class="mr-025"><a>Email&nbsp;<i class="fa-solid fa-envelope"></i></a> </li>
+                    <li><a>YouTube&nbsp;<i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <p class="copyright">Entertainment Plus - 2023. Made with <i class="fa-solid fa-heart"
+                style="color: #ec5555;"></i> and <img src="assets/images/icons/mug-hot-alt.svg"></p>
+    </footer>
+
+    <script type="text/javascript" src="assets/js/jquery-370.min.js"></script>
+    <script type="text/javascript" src="assets/js/OwlCarousel/dist/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+
+</html>

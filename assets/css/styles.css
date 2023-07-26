@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333333;
+}
+
+.site-title {
+    color: #fff;
+}
+
+.site-title span {
+    color: #00a8e8;
+    font-size: larger;
+}
+
+.main-image-heading span {
+    color: #00a8e8;
+    font-size: larger;
+}
+
+.social-media {
+    color: #fff;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.display-inline li {
+    display: inline;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-15 {
+    width: 15% !important;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+
+.w-25 {
+    width: 25% !important;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.img-fluid {
+    width: auto;
+    height: 100%;
+}
+
+.pl-1 {
+    padding-left: 1rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
+.m-auto {
+    margin: 0 auto !important;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mr-2 {
+    margin-right: 2rem;
+}
+
+.mr-025 {
+    margin-right: 0.25rem;
+}
+
+.mr-5px {
+    margin-right: 5px
+}
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-2rem {
+    margin-bottom: 2rem !important;
+}
+
+.mb-3rem {
+    margin-bottom: 3rem !important;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.btn {
+    padding: 10px 15px 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-info {
+    background-color: #00a8e8;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: #00a8e8;
+}
+
+.carousel {
+    margin-top: 3rem;
+}
+
+.carousel-container {
+    height: 100vh;
+}
+
+.carousel-slide {
+    object-fit: cover;
+}
+
+.slick-slide {
+    height: 80vh;
+}
+
+.slick-slide img {
+    height: 88vh;
+    object-fit: cover;
+}
+
+.info-card {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-card-overlay {
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.info-card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    display: none;
+}
+
+.info-card:hover .info-card-overlay {
+    opacity: 1;
+}
+
+.info-card:hover .info-card-title {
+    display: block;
+}
+
+/* Header styles */
+.header-top-bar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* Header styles end */
+
+/* Navbar styles */
+
+.navbar {
+    background-color: #00a8e8;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #333333;
+}
+
+.navbar a.active {
+    color: #333333; 
+}
+
+.explore-btn {
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    background-color: #00a8e8;
+    width: 100%;
+    z-index: 3;
+}
+
+.dropdown li {
+    padding: 15px;
+}
+
+.dropdown a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+/* Navbar styles end */
+
+.main-image-section {
+    margin-top: 2.73rem;
+    margin-bottom: 2rem;
+}
+
+.main-image-section .glass-effect {
+    position: relative;
+    height: 82vh;
+    overflow: hidden;
+}
+
+.main-image-section .glass-effect img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-image-section .glass-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(124, 124, 124, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    z-index: 1;
+}
+
+.main-image-section .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+}
+
+.main-image-section .text-overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-image-section .text-overlay p {
+    font-size: 1.2rem;
+}
+
+
+.border-radius-5px {
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #00a8e8;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.footer-pages-nav {
+    list-style: none;
+    color: #fff;
+    padding-left: 0;
+}
+
+.footer-pages-nav li {
+    margin-bottom: 10px;
+}
+
+.footer-pages-nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-pages-nav a:hover {
+    color: #333333;
+}
+
+.site-title-footer {
+    color: #fff;
+}
+
+.site-title-footer span {
+    color: #333333;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+/* Footer styles end */
+
+/* Movie page styles */
+
+.movies-image-section {
+    margin-top: 2.73rem;
+    margin-bottom: 2rem;
+}
+
+.movies-image-section .movie-cover-div {
+    position: relative;
+    height: 82vh;
+    overflow: hidden;
+}
+
+.movies-image-section .movie-cover-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movies-image-section .movie-cover-div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(124, 124, 124, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.fa-3xl {
+    font-size: 3em;
+    line-height: .03125em;
+    vertical-align: -0.1875em;
+}
+
+.movie-genres {
+    margin-bottom: 1.2rem;
+}
+
+.movie-genres span {
+    border: 1px solid #00a8e8;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.movie-info movie-cast {
+    margin-top: 10px;
+}
+
+.imdb-rating {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.movie-info span {
+    margin-bottom: 1rem;
+}
+
+.movie-buttons a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #00a8e8;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.movie-buttons a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.movie-main-info-section {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+/* Movie page styles end */
+
+/* TV Show page styles start */
+
+.tv-show-player {
+    height: 82vh;
+}
+
+.tv-show-genres {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tv-show-genres div {
+    border: 1px solid #00a8e8;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.tv-show-genres div:hover {
+    background-color: #00a8e8;
+    cursor: pointer;
+}
+
+.tv-shows-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tv-show-tile {
+    box-sizing: border-box;
+    position: relative;
+    width: calc(25%);
+    overflow: hidden;
+}
+
+.tv-show-tile img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tv-show-tile .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tv-show-tile:hover .overlay {
+    opacity: 1;
+}
+
+.tv-show-tile .overlay p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+
+.tv-show-tile .overlay p:last-child {
+    font-size: 14px;
+}
+
+/* Music page styles */
+
+.border-round {
+    border-radius: 50%;
+}
+
+.music-artist-avatar {
+    width: 112px;
+    height: 100%;
+}
+
+.audio-player-div {
+    margin-bottom: 2rem;
+}
+
+.audio-player-div h3 {
+    margin-top: 6px;
+}
+
+/* Music page styles ends */

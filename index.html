@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Plus</title>
+    <meta name="description" content="Your website description here">
+    <meta name="keywords" content="movies, TV shows, music">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="m-auto">
+    <header>
+        <div class="flex flex-row justify-content-space-between header-top-bar">
+            <div>
+                <h4 class="site-title">Entertainment <span><i>Plus</i>&nbsp;<i class="fa-solid fa-plus"></i></span></h4>
+            </div>
+            <div class="mt-8px">
+                <ul class="display-inline list-style-none social-media">
+                    <li class="mr-025"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="mr-025"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="mr-025"><i class="fa-solid fa-envelope"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+            <ul class="dropdown" id="dropdownMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="tv-shows.html">TV Shows</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <main class="container m-auto">
+        <section class="main-image-section">
+            <div class="glass-effect">
+                <img src="assets/images/movies/mtv.jpeg" alt="movies and tv shows image" class="img-fluid">
+                <div class="text-overlay">
+                    <h1 class="main-image-heading">Welcome to Entertainment <span><i>Plus</i>&nbsp;<i
+                                class="fa-solid fa-plus"></i></span></h1>
+                    <p>Explore our vast collection of movies and TV shows and Music!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="movies" class="mb-2rem">
+            <div class="flex flex-row">
+                <div>
+                    <div class="flex flex-row align-items-baseline justify-content-space-between m-sm-10px">
+                        <h1 class="text-white ml-sm-24rem ml-sm-24rem">Movies</h1>
+                        <a class="btn btn-info text-white mr-25 explore-btn" href="movies.html">
+                            <i class="fa-solid fa-film"></i> Explore
+                        </a>
+                    </div>
+
+                    <div class="flex flex-row flex-sm-column justify-content-space-between justify-content-sm-center">
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/movies/bad_hombres_2023.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Bad Hombres - 2023</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/movies/after_the_bite_2023.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">After The Bite - 2023</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/movies/last_voyage_of_the_demeter_2023.jpg"
+                                class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Last Voyage of the Demeter - 2023</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/movies/fast_x_ver2_2023.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Fast X - 2023</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/movies/last_kingdom_seven_kings_must_die_2023.jpg"
+                                class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Last Kingdom Seven Kings Must Die - 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tv-shows" class="mb-2rem">
+            <div class="flex flex-row">
+                <div>
+                    <div class="flex flex-row align-items-baseline justify-content-space-between">
+                        <h1 class="text-white ml-sm-24rem">TV Shows</h1>
+                        <a class="btn btn-info text-white mr-25 explore-btn" href="tv-shows.html">
+                            <i class="fa-solid fa-tv"></i> Explore
+                        </a>
+                    </div>
+
+                    <div class="flex flex-row flex-sm-column justify-content-space-between justify-content-sm-center">
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/tvshows/breaking_bad.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Breaking Bad</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/tvshows/demon_slayer.png" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Demon Slayer - 鬼滅の刃</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/tvshows/gotham.webp" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Gotham</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/tvshows/see.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">See</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/tvshows/witcher.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Witcher</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tv-shows" class="mb-2rem">
+            <div class="flex flex-row">
+                <div>
+                    <div class="flex flex-row align-items-baseline justify-content-space-between">
+                        <h1 class="text-white ml-sm-24rem">Music</h1>
+                        <a class="btn btn-info text-white mr-25 explore-btn" href="music.html">
+                            <i class="fa-solid fa-music"></i> Explore
+                        </a>
+                    </div>
+
+                    <div class="flex flex-row flex-sm-column justify-content-space-between justify-content-sm-center">
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/music/eminem.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Eminem</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/music/taylor_swift.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Taylor Swift</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/music/billie_eilish.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Billie Eilish</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/music/bns.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Bathiya n Santhush</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card margin-sm-auto ml-sm-24rem">
+                            <img src="assets/images/music/imagine_dragons.jpg" class="w-90 border-radius-5px">
+                            <div class="info-card-overlay">
+                                <p class="info-card-title">Imagine Dragons</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <section class="footer padding-inline-10px">
+            <div class="w-25">
+                <h4 class="site-title-footer">Entertainment <span><i>Plus</i>&nbsp;<i
+                            class="fa-solid fa-plus"></i></span></h4>
+                <p class="text-white">
+                    Discover movies, TV shows, and music — endless genres, timeless classics. Thrilling adventures,
+                    heartwarming romances, chart-topping tunes. Explore now!
+                </p>
+            </div>
+            <div class="pages">
+                <h4 class="text-white">Pages</h4>
+                <ul class="footer-pages-nav">
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+                    <li><a href="movies.html"><i class="fa-solid fa-film"></i>&nbsp;Movies</a></li>
+                    <li><a href="tv-shows.html"><i class="fa-solid fa-tv"></i>&nbsp;TV Shows</a></li>
+                    <li><a href="music.html"><i class="fa-solid fa-music"></i>&nbsp;Music</a></li>
+                </ul>
+            </div>
+            <div class="who-are-we w-25">
+                <h4 class="text-white">Who Are We ?</h4>
+                <p class="text-white">
+                    We are a group of young people who believe in Free World and New World Order!
+                </p>
+                <p class="text-white">
+                    Curious ? <a href="#">Join Our NEWS letter</a>
+                </p>
+            </div>
+            <div class="footer-social-media">
+                <h4 class="text-white">Follow us on Social Media</h4>
+                <ul class="footer-pages-nav">
+                    <li class="mr-025"><a>Instagram&nbsp;<i class="fa-brands fa-instagram"></i></a> </li>
+                    <li class="mr-025"><a>Facebook&nbsp;<i class="fa-brands fa-facebook"></i></a> </li>
+                    <li class="mr-025"><a>Email&nbsp;<i class="fa-solid fa-envelope"></i></a> </li>
+                    <li><a>YouTube&nbsp;<i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <p class="copyright">Entertainment Plus - 2023. Made with <i class="fa-solid fa-heart"
+                style="color: #ec5555;"></i> and <img src="assets/images/icons/mug-hot-alt.svg"></p>
+    </footer>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+
+</html>
